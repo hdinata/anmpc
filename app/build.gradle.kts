@@ -7,6 +7,10 @@ android {
   namespace = "com.andredev.testgit"
   compileSdk = 36
 
+  buildFeatures {
+    viewBinding = true
+  }
+
   defaultConfig {
     applicationId = "com.andredev.testgit"
     minSdk = 24
